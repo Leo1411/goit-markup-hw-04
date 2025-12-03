@@ -19,6 +19,8 @@ ol {
 a {
     text-decoration: none;
     color: currentColor;
+    display: block;
+    padding: 24px 0;
 }
 
 button {
@@ -27,6 +29,8 @@ button {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -52,7 +56,6 @@ body {
 .header-list {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .logo {
@@ -64,6 +67,7 @@ body {
     color: #4D5AE5;
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .logo-studio {
@@ -133,6 +137,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
+    max-width: 496px;
 }
 
 .hero-btn {
@@ -189,6 +194,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .team {
@@ -220,7 +226,7 @@ body {
 .team-description {
     display: flex;
     flex-direction: column;
-    padding: 32px 0;
+    padding: 32px 16px;
     gap: 8px;
 }
 
@@ -265,7 +271,7 @@ body {
 .portfolio-description {
     display: flex;
     flex-direction: column;
-    padding: 32px 0;
+    padding: 32px 16px;
     gap: 8px;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
@@ -278,14 +284,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-left: 16px;
 }
 
 .portfolio-item p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 16px;
 }
 
 .footer {
@@ -315,4 +319,5 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
